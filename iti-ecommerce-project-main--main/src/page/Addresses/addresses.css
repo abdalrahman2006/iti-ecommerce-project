@@ -1,0 +1,55 @@
+.addresses_page .container{
+  padding: 50px 0;
+  max-width: 700px;
+}
+
+.address_form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 20px 0 30px;
+}
+
+.address_form input{
+  height: 45px;
+  padding: 0 15px;
+  border: 1px solid var(--border_color);
+  border-radius: 5px;
+  grid-column: span 1;
+}
+.address_form input[name="address"]{
+  grid-column: span 2;
+}
+
+.form_actions{
+  grid-column: span 2;
+  display: flex;
+  gap: 10px;
+}
+
+.addresses_list{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.address_card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--border_color);
+  border-radius: 8px;
+  padding: 15px 20px;
+}
+
+.address_actions{
+  display: flex;
+  gap: 15px;
+}
+.address_actions span{
+  cursor: pointer;
+  font-size: 18px;
+}
+.address_actions span:hover{
+  color: var(--main_color);
+}

@@ -1,0 +1,132 @@
+.admin-products h1 {
+  color: #0d47a1;
+}
+
+.products-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.add-btn {
+  background: #2196f3;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.add-btn:hover {
+  background: #0d47a1;
+}
+
+/* الفورم */
+.product-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  max-width: 500px;
+}
+
+.product-form h2 {
+  color: #0d47a1;
+}
+
+.product-form input {
+  padding: 10px 14px;
+  border: 1px solid #bbdefb;
+  border-radius: 8px;
+  outline: none;
+}
+
+.product-form input:focus {
+  border-color: #2196f3;
+}
+
+.form-btns {
+  display: flex;
+  gap: 10px;
+}
+
+.save-btn {
+  background: #2196f3;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background: #eee;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* الجدول */
+.products-table {
+  width: 100%;
+  background: #fff;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.products-table th,
+.products-table td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.products-table th {
+  background: #0d47a1;
+  color: #fff;
+}
+
+.product-img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.product-title {
+  max-width: 300px;
+}
+
+.edit-btn,
+.delete-btn {
+  border: none;
+  padding: 7px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.edit-btn {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.delete-btn {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.loading {
+  padding: 40px;
+  text-align: center;
+  color: #0d47a1;
+  font-size: 1.2rem;
+}

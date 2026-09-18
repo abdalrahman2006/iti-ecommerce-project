@@ -1,0 +1,51 @@
+.coupon_box {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border_color);
+}
+
+.coupon_form { display: flex; gap: 10px; }
+
+.coupon_form input {
+  flex: 1;
+  height: 42px;
+  padding: 0 15px;
+  border: 1px solid var(--border_color);
+  border-radius: 30px;
+  background: var(--bg_color);
+  outline: none;
+}
+
+.coupon_form input:focus { border-color: var(--main_color); }
+
+.coupon_form button {
+  padding: 0 20px;
+  border: none;
+  border-radius: 30px;
+  background: var(--main_color);
+  color: var(--white_color);
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.coupon_applied {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--bg_color);
+  padding: 12px 18px;
+  border-radius: 30px;
+  color: var(--color_heading);
+  font-weight: 600;
+}
+
+.coupon_applied span { display: flex; align-items: center; gap: 6px; }
+.coupon_applied svg { color: var(--main_color); }
+.coupon_applied button {
+  border: none;
+  background: transparent;
+  color: #e74c3c;
+  cursor: pointer;
+  font-size: 13px;
+  text-decoration: underline;
+}

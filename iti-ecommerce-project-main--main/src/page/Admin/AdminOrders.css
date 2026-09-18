@@ -1,0 +1,102 @@
+.admin-orders h1 {
+  color: #0d47a1;
+  margin-bottom: 25px;
+}
+
+.orders-table {
+  width: 100%;
+  background: #fff;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.orders-table th,
+.orders-table td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.orders-table th {
+  background: #0d47a1;
+  color: #fff;
+}
+
+.order-img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+/* حالة الأوردر */
+.status-select {
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.status-select.pending {
+  background: #fff8e1;
+  color: #f9a825;
+}
+
+.status-select.shipped {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.status-select.delivered {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+/* زرار العرض */
+.view-btn {
+  background: #e3f2fd;
+  color: #1565c0;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.view-btn:hover {
+  background: #2196f3;
+  color: #fff;
+}
+
+/* صفحة التفاصيل */
+.back-btn {
+  background: #eee;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.order-details h2 {
+  color: #0d47a1;
+}
+
+.order-date {
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.order-total {
+  text-align: right;
+  margin-top: 15px;
+  color: #0d47a1;
+}
+
+.loading {
+  padding: 40px;
+  text-align: center;
+  color: #0d47a1;
+  font-size: 1.2rem;
+}

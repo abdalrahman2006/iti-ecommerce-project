@@ -1,0 +1,96 @@
+.checkout .container{
+  max-width: 600px;
+  padding: 50px 0;
+}
+
+.checkout h1{
+  margin-bottom: 25px;
+}
+
+.checkout_form .section{
+  margin-bottom: 25px;
+}
+
+.checkout_form .section h3{
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.checkout_form input{
+  width: 100%;
+  height: 45px;
+  padding: 0 15px;
+  margin-bottom: 12px;
+  border: 1px solid var(--border_color);
+  border-radius: 5px;
+}
+
+.checkout_form .row{
+  display: flex;
+  gap: 10px;
+}
+
+.order_total{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.order_confirmation .container{
+  max-width: 500px;
+}
+
+.order_confirmation{
+  text-align: center;
+  padding: 80px 0;
+}
+
+.confirmation_icon{
+  width: 70px;
+  height: 70px;
+  background: #2ecc71;
+  color: var(--white_color);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin: 0 auto 25px;
+}
+
+.order_confirmation h1{
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.order_confirmation .order_id{
+  color: var(--p_color);
+  margin-bottom: 5px;
+}
+
+.order_confirmation .order_amount{
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--main_color);
+  margin-bottom: 30px;
+}
+
+.confirmation_actions{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.confirmation_actions .btn{
+  padding: 12px 24px;
+  font-size: 15px;
+}
+
+.btn.secondary{
+  background: var(--bg_color);
+  color: var(--color_heading);
+}
+.btn.secondary:hover{
+  background: #e5e5e5;
+}
