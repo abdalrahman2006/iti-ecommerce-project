@@ -223,15 +223,11 @@ header{
     height: auto;
   }
 
-  .btm_header .nav_links {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .btm_header .category_nav {
-    width: 100%;
-  }
+.btm_header .nav_links {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
 }
