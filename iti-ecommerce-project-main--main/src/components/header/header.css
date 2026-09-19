@@ -217,17 +217,22 @@ header{
   }
 
   .btm_header .nav {
-    flex-direction: column;
+    flex-direction: row; /* نخليهم جنب بعض عشان مياخدوش مساحة رأسية كبيرة */
     width: 100%;
-    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
     height: auto;
   }
 
-.btm_header .nav_links {
-  display: flex !important;
-  flex-direction: column !important;
-  width: 100% !important;
-  align-items: center !important;
-  gap: 10px !important;
-}
+  .btm_header .nav_links {
+    display: flex !important;
+    flex-direction: row !important; /* جنب بعض (Home, About, Contact) */
+    gap: 15px;
+    align-items: center;
+  }
+
+  .btm_header .category_nav {
+    width: auto;
+  }
 }
