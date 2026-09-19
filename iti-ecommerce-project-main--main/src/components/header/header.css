@@ -208,3 +208,30 @@ header{
 .suggestions li img{
     width: 30px;
 }
+
+@media (max-width: 768px) {
+  .btm_header .container {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .btm_header .nav {
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+    height: auto;
+  }
+
+  .btm_header .nav_links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .btm_header .category_nav {
+    width: 100%;
+  }
+}
